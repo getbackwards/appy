@@ -3,6 +3,7 @@ import { Routes, RouterModule } from '@angular/router';
 
 // import { HomeComponent } from './home-component/home-component/home-component.component';
 
+import { AboutComponent } from './about/about-component/about.component';
 import { HomeComponent } from './home/home-component/home.component';
 
 // const routes: Routes = [];
@@ -13,10 +14,10 @@ import { HomeComponent } from './home/home-component/home.component';
 //   { path: '', redirectTo: '/search', pathMatch: 'full' }
 // ];
 
-
 // https://angular.io/guide/router
 const routes: Routes = [
-  { path: 'home',      component: HomeComponent },
+  { path: 'home', component: HomeComponent },
+  { path: 'about', component: AboutComponent },
   // { path: '', component: HomeComponent }
   { path: '',
     redirectTo: '/home',

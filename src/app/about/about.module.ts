@@ -1,9 +1,9 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { AboutComponentComponent } from './about-component/about-component.component';
+import { AboutComponent } from './about-component/about.component';
 
 @NgModule({
-  declarations: [AboutComponentComponent],
+  declarations: [AboutComponent],
   imports: [
     CommonModule
   ]
