@@ -13,8 +13,15 @@ import { HomeComponent } from './home/home-component/home.component';
 //   { path: '', redirectTo: '/search', pathMatch: 'full' }
 // ];
 
+
+// https://angular.io/guide/router
 const routes: Routes = [
-  { path: '', component: HomeComponent }
+  { path: 'home',      component: HomeComponent },
+  // { path: '', component: HomeComponent }
+  { path: '',
+    redirectTo: '/home',
+    pathMatch: 'full'
+  }
 ];
 
 @NgModule({
